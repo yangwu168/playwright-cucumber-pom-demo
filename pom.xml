@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.orangehrmlive.opensourcedemo</groupId>
+	<artifactId>ProjectThree</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+		<!-- Playwright dependencies-->
+		<!--
+		https://mvnrepository.com/artifact/com.microsoft.playwright/playwright -->
+		<dependency>
+			<groupId>com.microsoft.playwright</groupId>
+			<artifactId>playwright</artifactId>
+			<version>1.47.0</version>
+		</dependency>
+
+		<!-- Cucumber dependencies-->
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.3.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>7.3.4</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Apache Log4j dependencies-->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.20.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.20.0</version>
+		</dependency>
+		
+		<!-- junit4 DataProvider dependency -->
+		<!--
+		https://mvnrepository.com/artifact/com.tngtech.junit.dataprovider/junit4-dataprovider -->
+		<dependency>
+			<groupId>com.tngtech.junit.dataprovider</groupId>
+			<artifactId>junit4-dataprovider</artifactId>
+			<version>2.10</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+</project>
